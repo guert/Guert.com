@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+
+	<meta charset="utf-8">
+	<!-- Always force latest IE rendering engine & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>GUERT&trade;</title>
+	<meta name="description" content="Guert Shirts, Guert Design, Guert Films, Guert Portfolio, Guert Tunes">
+	<meta name="keywords" content="All things GUERT">
+	<meta name="author" content="http://www.guert.com">
+	<meta http-equiv="cleartype" content="on">
+
+	<!-- Responsive and mobile friendly stuff -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Guert">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/html5reset.css" media="all">
+	<link rel="stylesheet" href="css/cols.css" media="all">
+	<link rel="stylesheet" href="css/style.css" media="all">
+	<link rel="stylesheet" href="css/animate.min.css" media="all">
+	
+	<style type="text/css">#title,#glyphs p{font-family:"Luckiest Guy"}</style>
+	<style type="text/css">	
+	
+	.col { background: none; padding:1em 0; text-align:center;}
+
+	</style>
+	
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+
+
+</head>
+<body>
+
+    <div class="header" style="background-color:#336699;padding-bottom:300px;">
+		<div style="text-align:center;">
+			<div style="padding-top:40px;"><img src="img/logo.png" style="max-width:120px;" alt="Guert" /></div>
+			<div class="animated fadeInDown" style="padding-top:30px;"><span style="font-size:70px;font-family: Luckiest Guy, Arial, sans-serif;color:#fff;">GUERT</span></div>
+			<h2 class="animated fadeInUp" style="padding-top:20px;font-family:sans-serif;"><span style="color:#ececec;">Putting the</span> <span style="color:#ffa000;">HYPER</span> <span style="color:#ececec">in hypertext.</span></h2>
+			<div class="animated zoomInDown" style="color:#ffffff;font-size:45px;-webkit-animation-delay: 1s;padding-top:10px;">
+			<a href="guert-shirts.html" class="guert-links">GUERT SHIRTS</a> <span style="font-size:20px;">*</span> 
+			<a href="guert-design.html" class="guert-links">GUERT DESIGN</a><br />
+			<a href="bonus.html" class="bonus">bonus</a>
+			</div>
+			</div>
+		</div>
+	</div>
+		
+    <div style="text-align:center;z-index:2000;background-color:#336699;margin-bottom:0px;padding-left:150px;line-height:0"><img src="img/footer-thang.png" alt="footer mountains of love"></div>
+    <div class="footer" style="background-color:#a68361;">	
+		<span class="footer-text">&copy; GUERT 1998-2018</span><br /><br />
+		<span><a href="guert-shirts.html" class="footer-links">GUERT SHIRTS</a> : <a href="guert-design.html" class="footer-links">GUERT DESIGN</a> : <a href="bonus.html" class="footer-links">BONUS GUERT</a></span>
+	</div>
+			
+	
+	<script>
+  		function testAnim(x) {
+    		$('#animationSandbox').removeClass().addClass(x + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+      		$(this).removeClass();
+    		});
+  		};
+
+  		$(document).ready(function(){
+    		$('.js--triggerAnimation').click(function(e){
+      		e.preventDefault();
+      		var anim = $('.js--animations').val();
+      		testAnim(anim);
+    		});
+
+    		$('.js--animations').change(function(){
+      		var anim = $(this).val();
+      		testAnim(anim);
+    		});
+  		});
+	</script>
+
+	<script src="js/ScrollTrigger.js"></script>
+	<script src="js/ScrollTrigger.min.js"></script>
+				
+</body>
+</html>
